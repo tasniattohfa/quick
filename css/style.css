@@ -8,6 +8,7 @@ body {
 }
 
 /* common css end */
+
 /* header start */
 header {
   padding: 15px 0px;
@@ -67,7 +68,8 @@ header {
 
 /* banner start */
 .banner {
-  padding: 60px 0;;
+  padding: 60px 0;
+  ;
 }
 
 .container2 {
@@ -91,8 +93,9 @@ header {
 }
 
 .b_p {
-  margin: 10px 0 30px;
+  margin: 10px 0;
   padding: 0 92px;
+  color: #7c8ca7;
   line-height: 25px;
 }
 
@@ -107,23 +110,118 @@ header {
 }
 
 /* banner end */
-/* success start */
-.s_left{
-  margin: 0 auto;
-  width: 45%;
-  float: left;
-}
-.success_h2{
-  padding-right: 0;
-  color:#f15767;
-}
-/* .s_p{
 
-} */
-.s_right{
-  margin: 0 auto;
-  padding: 0 125px;
-  width: 45%;
+/* success start */
+.container3 {
+  margin-right: 2%;
+  padding: 50px 2%;
+  display: flex;
+
 }
-/* success_h1{} */
+
+.s_left {
+  margin-right: 15px;
+  display: inline;
+  width: 35%;
+  text-align: right;
+  float: left;
+
+}
+
+.success_h2 {
+  margin-bottom: 2px;
+  padding-right: 0;
+  font-size: 35px;
+  color: #f15767;
+  text-align: right;
+
+}
+
+.s_p {
+  color: #7c8ca7;
+  line-height: 20px;
+}
+
+.s_right {
+  width: 25%;
+  text-align: center;
+}
+
+.success_h1 {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-right: 320px;
+  font-size: 35px;
+
+}
+
 /* success end */
+
+/* service start */
+.service {}
+
+.single_service {
+  margin-top: 25px;
+  margin-right: 2%;
+  margin-bottom: 25px;
+  padding: 50px 2%;
+  width: 32%;
+  /* border: 1px solid blue; */
+  float: left;
+  box-sizing: border-box;
+
+}
+
+.single_service:first-child {
+  background-color: #fdebed;
+}
+
+.single_service:nth-child(2) {
+  background-color: #ebf9f4;
+}
+
+.single_service:last-child {
+  background-color: #fff7e8;
+  margin-right: 0;
+}
+
+.ss_img {}
+
+.ss_img img {
+  width: 100%;
+
+}
+
+.ss_h2 {
+  margin: 15px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ss_p {
+  margin: 0;
+  color: #7c8ca7;
+  line-height: 25px;
+}
+
+/* service end */
+
+/* footer start */
+.footer_h6 {
+  padding: 25px;
+  background-color: #008aff;
+  color: rgba(255, 255, 255, 0.788);
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.footer_h6 span {
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/* footer end */
