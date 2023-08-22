@@ -1,3 +1,3 @@
 # quick
-converted an image to html \n
+converted an image to html 
 preview:https://tasniattohfa.github.io/quick
